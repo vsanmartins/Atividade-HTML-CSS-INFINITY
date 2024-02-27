@@ -1,0 +1,96 @@
+html{
+    background-color:#EBEFF2 ;
+}
+body {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #EBEFF2;
+    min-height: 80px;
+    display: flex;
+}
+
+.header_logo_img {
+    width: 250px;
+    justify-content: center;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 5px;
+}
+
+.header_logo_img_img {
+    width: 250px;
+    height: auto;
+}
+
+.header_company_name {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 2.2rem;
+}
+
+.nav_main_menu {
+    background-color: #011826;
+    margin-top: 5px;
+}
+
+.nav_main_menu ul {
+    list-style: none;
+}
+
+.nav_main_menu li {
+    display: inline-block;
+}
+
+.nav_main_menu a {
+    text-decoration: none;
+    color: #EBEFF2;
+    cursor: pointer ;
+    padding: 15px 30px;
+}
+
+.nav_main_menu li :hover {
+    background-color: #042940;
+    transition: 1s;
+}
+
+main {
+    background-color: #8AB0BF;
+    padding: 2% 5%;
+}
+
+.first_section {
+    display: flex;
+}
+
+.first_section img {
+    width: 400px;
+    border-radius: 3px;
+}
+
+.first_section_text_content {
+    padding: 2% 5%;
+}
+
+.first_section_text_content p {
+    text-align: justify;
+}
+
+.first_section_text_content h2 {
+    font-size: 1.6rem;
+}
+
+.icons_nav{
+   padding: 5px 15px;
+   margin: -15px ;
+   float: inline-start;
+}
+
